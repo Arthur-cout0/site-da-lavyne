@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Site no bloco de notas</title>
+		<style>
+			body {
+				background: linear-gradient(to right, #FF1493, #00FFFF);
+
+				min-height: 100vh;
+				overflow: hidden;
+			}
+			div {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+			}
+			span {
+				font-size: 2rem;
+				color: rgb(170, 0, 170);
+				font-family: Arial Heveltica, sans-serif;
+			}
+			img {
+				border-radius: 1rem;
+				transition: all 300ms linear;
+			}
+			img:hover{
+				transform: scale(1.5)
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<span>Feijão com arroz</span>
+			<img src="feijao-com-arroz.jfif"/>
+		</div>
+		<div>
+			<span>Miojo de carne</span>
+			<img src="miojo-de-carne.jfif"/>
+		</div>
+	</body>
+</html>
